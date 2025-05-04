@@ -31,6 +31,53 @@
     <link rel="stylesheet" href="assets/css/respnsve1.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/ourDedicated.css">
+
+
+    <style>
+        .text-container {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .short-text {
+            margin-bottom: 10px;
+        }
+
+        .full-text {
+            display: none;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin-top: 10px;
+            border-right: 4px solid #4CAF50;
+        }
+
+        .toggle-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .toggle-btn:hover {
+            background-color: #45a049;
+        }
+
+        .toggle-btn:focus {
+            outline: none;
+        }
+    </style>
 </head>
 
 <body dir="rtl">
@@ -114,7 +161,7 @@
                                             </div>
                                             <div class="content">
                                                 <span>تماس بگیرید</span>
-                                                <a href="tel:0123456789">۰۹۲۳۲۸۹۴۵۰۸</a>
+                                                <a href="tel:09232894508">۰۹۲۳۲۸۹۴۵۰۸</a>
                                             </div>
                                         </li>
                                         <li class="header-search"><a href="#"><i class="flaticon-search"></i></a></li>
@@ -194,9 +241,6 @@
 
         <section class="banner-area-two banner-bg-two" data-background="assets/img/banner/h2_banner_bg.jpg">
 
-
-
-
             <div class="container">
                 <div class="content">
                     <ul class="circle">
@@ -227,7 +271,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="banner-content-two">
-                            <span class="sub-title" data-aos="fade-up" data-aos-delay="0">ما در این زمینه متخصص
+                            <span class="sub-title " data-aos="fade-up" data-aos-delay="0">ما در این زمینه متخصص
                                 هستیم</span>
                             <h2 class="title" data-aos="fade-up" data-aos-delay="300"> یک راه هوشمندانه!برای یافتن کلاس
                                 هایتان </h2>
@@ -293,6 +337,7 @@
             </div>
         </section>
         <!-- about-area-end -->
+
         <!-- services-area -->
         <section class="services-area-two services-bg-two" data-background="assets/img/bg/services_bg02.jpg">
             <div class="container">
@@ -405,287 +450,53 @@
                 <div class="institute-new">
 
 
-                    <h3>جدید ترین اموزشگاه های کلاس یار</h3>
+                    <h3 class="bg-main p-3 rounded container mt-5 text-light">جدید ترین اموزشگاه های کلاس یار</h3>
                     <!-- Swiper -->
                     <div class="swiper mySwiper respon-style">
                         <div class="swiper-wrapper">
-
-
-
                             <div class="swiper-slide">
                                 <a href="institute.html">
-                                    <div class="title-institute">
-
-                                        <div class="info-institute-card">
-                                            <h3>نام اموزشگاه</h3>
-
-                                            <span>دسته بندی : هنری</span>
+                                    <div class="academy-card">
+                                        <div class="academy-header">
+                                            <div class="category">دسته بندی : هنری</div>
+                                            <img src="assets/img/brand/aboutus.jpg" alt="تصویر شاخص آموزشگاه"
+                                                class="academy-logo">
+                                            <div>
+                                                <h1 class="academy-name">آموزشگاه شیدا</h1>
+                                                <!-- <p>مرکز تخصصی آموزش‌های هنری</p> -->
+                                            </div>
                                         </div>
 
-                                        <img src="assets/img/categories/download.jpg" alt="">
+                                        <div class="academy-content">
+                                            <div class="info-item">
+                                                <i class="fas fa-map-marker-alt info-icon"></i>
+                                                <p class="info-text">آدرس: خیابان امام، بین فلان و بهمان، پلاک ۱۲۳</p>
+                                            </div>
 
 
 
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <span>توضیحات</span>
-
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                                            qui conseq.
-                                        </p>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
+                                            <div class="info-item">
+                                                <i class="fas fa-info-circle info-icon"></i>
+                                                <p class="info-text">ساعت کاری : 13 الی 22</p>
+                                            </div>
 
 
+
+                                            <div class="footer-card">
+                                                <p> <i class=" fa fa-street-view"> تعداد بازدید : 110</i></p>
+
+                                                <span><i class="fas fa-star">5.0</i></span>
+
+                                            </div>
+                                            <button class="visit-btn">
+                                                <i class="fas fa-eye" style="margin-left: 8px;"></i>
+                                                مشاهده آموزشگاه
+                                            </button>
                                         </div>
                                     </div>
+
                                 </a>
                             </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-institute">
-
-                                        <div class="info-institute-card">
-                                            <h3>نام اموزشگاه</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <span>توضیحات</span>
-
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                                            qui conseq.
-                                        </p>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-institute">
-
-                                        <div class="info-institute-card">
-                                            <h3>نام اموزشگاه</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <span>توضیحات</span>
-
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                                            qui conseq.
-                                        </p>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-institute">
-
-                                        <div class="info-institute-card">
-                                            <h3>نام اموزشگاه</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <span>توضیحات</span>
-
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                                            qui conseq.
-                                        </p>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-institute">
-
-                                        <div class="info-institute-card">
-                                            <h3>نام اموزشگاه</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <span>توضیحات</span>
-
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                                            qui conseq.
-                                        </p>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-institute">
-
-                                        <div class="info-institute-card">
-                                            <h3>نام اموزشگاه</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <span>توضیحات</span>
-
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                                            qui conseq.
-                                        </p>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-institute">
-
-                                        <div class="info-institute-card">
-                                            <h3>نام اموزشگاه</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <span>توضیحات</span>
-
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                                            qui conseq.
-                                        </p>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -694,276 +505,59 @@
                 <!-- جدیدترین کلاس ها -->
                 <div class="classes-new ">
 
-                    <h3>جدید ترین کلاس های کلاس یار</h3>
+                    <h3 class="bg-main p-3 rounded container mt-5 text-light">جدید ترین کلاس های کلاس یار</h3>
 
 
                     <div class="swiper mySwiper respon-style">
                         <div class="swiper-wrapper">
 
+
                             <div class="swiper-slide">
                                 <a href="institute.html">
-                                    <div class="title-class">
+                                    <div class="academy-card">
+                                        <div class="academy-header">
+                                            <div class="category">دسته بندی : هنری</div>
+                                            <img src="assets/img/brand/aboutus.jpg" alt="تصویر شاخص آموزشگاه"
+                                                class="academy-logo">
+                                            <h1 class="academy-name">آموزشگاه شیدا</h1>
 
-                                        <div class="info-class-card">
-                                            <h3>نام کلاس</h3>
 
-                                            <span>دسته بندی : هنری</span>
                                         </div>
 
-                                        <img src="assets/img/categories/download.jpg" alt="">
+                                        <div class="academy-content">
+                                            <div class="info-item">
+                                                <i class="fas fa-map-marker-alt info-icon"></i>
+                                                <p class="info-text">نام کلاس : ویلن شیدا</p>
+                                            </div>
 
 
 
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <div class="class-info">
-                                            <h4>معلم : علی</h4>
-                                            <p>زمان برگزاری :4 تا 8</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
+                                            <div class="info-item">
+                                                <i class="fas fa-info-circle info-icon"></i>
+                                                <p class="info-text">ساعت برگزاری : 13 الی 22</p>
+                                            </div>
+                                            <div class="info-item">
+                                                <i class="fa fa-chalkboard-teacher info-icon"></i>
+                                                <p class="info-text">مدرس : حبیبی</p>
+                                            </div>
 
 
+
+                                            <div class="footer-card">
+                                                <p> <i class=" fa fa-street-view"> تعداد بازدید : 110</i></p>
+
+                                                <span><i class="fas fa-star">5.0</i></span>
+
+                                            </div>
+                                            <button class="visit-btn">
+                                                <i class="fas fa-eye" style="margin-left: 8px;"></i>
+                                                مشاهده آموزشگاه
+                                            </button>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-class">
-
-                                        <div class="info-class-card">
-                                            <h3>نام کلاس</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <div class="class-info">
-                                            <h4>معلم : علی</h4>
-                                            <p>زمان برگزاری :4 تا 8</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-class">
-
-                                        <div class="info-class-card">
-                                            <h3>نام کلاس</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <div class="class-info">
-                                            <h4>معلم : علی</h4>
-                                            <p>زمان برگزاری :4 تا 8</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-class">
-
-                                        <div class="info-class-card">
-                                            <h3>نام کلاس</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <div class="class-info">
-                                            <h4>معلم : علی</h4>
-                                            <p>زمان برگزاری :4 تا 8</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-class">
-
-                                        <div class="info-class-card">
-                                            <h3>نام کلاس</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <div class="class-info">
-                                            <h4>معلم : علی</h4>
-                                            <p>زمان برگزاری :4 تا 8</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-class">
-
-                                        <div class="info-class-card">
-                                            <h3>نام کلاس</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <div class="class-info">
-                                            <h4>معلم : علی</h4>
-                                            <p>زمان برگزاری :4 تا 8</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="institute.html">
-                                    <div class="title-class">
-
-                                        <div class="info-class-card">
-                                            <h3>نام کلاس</h3>
-
-                                            <span>دسته بندی : هنری</span>
-                                        </div>
-
-                                        <img src="assets/img/categories/download.jpg" alt="">
-
-
-
-                                    </div>
-
-                                    <div class="discreption">
-
-                                        <div class="class-info">
-                                            <h4>معلم : علی</h4>
-                                            <p>زمان برگزاری :4 تا 8</p>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="send">
-                                        <button><a href="institute.html">بازدید</a></button>
-                                        <span> تعداد بازدید:123 </span>
-
-                                        <div class="likes">
-                                            <span><i class="fas fa-star">5.0</i></span>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
 
                         </div>
                     </div>
@@ -985,7 +579,7 @@
     <!-- seo section with word keys -->
 
     <section id="key-item ">
-        <h4>ما در این حوضه ها متخصص هستیم</h4>
+        <h4 class="bg-main p-3 rounded container mt-5 text-light">ما در این حوضه ها متخصص هستیم</h4>
         <div class="contentt my-row">
             <div class="key-items my-col-xs-5 my-col-sm-5 my-col-md-3">
                 <img src="assets/img/brand/seoitem1.png" alt="">
@@ -1002,6 +596,99 @@
         </div>
     </section>
 
+
+
+
+
+    <div class="container">
+        <h4 class="text-light bg-main rounded p-3 mt-5 ">کلاس‌یار؛ مرجع جامع جست‌وجو و معرفی آموزشگاه‌ها و کلاس‌های
+            آموزشی در نجف‌آباد</h4>
+
+        <div class="short-text">
+            <p>
+                <strong>کلاس‌یار</strong> یک سامانه پیشرفته و هوشمند برای معرفی، مقایسه و جست‌وجوی
+                <strong>کلاس‌های آموزشی در نجف‌آباد</strong> است. اگر به دنبال پیدا کردن سریع و آسان
+                <strong>آموزشگاه‌های معتبر نجف‌آباد</strong> هستید یا قصد دارید کلاس موردنظر خود را از بین صدها دوره و
+                آموزشگاه با شرایط مناسب انتخاب کنید،
+                کلاس‌یار دقیقاً برای شما طراحی شده است.
+            </p>
+            <p>
+                ما در کلاس‌یار تلاش کرده‌ایم با جمع‌آوری اطلاعات جامع و دقیق از آموزشگاه‌های سطح شهر نجف‌آباد، نیاز
+                همه‌ی گروه‌های سنی و علاقه‌مندان به یادگیری را پوشش دهیم.
+                فرقی نمی‌کند که به دنبال آموزش ورزشی باشید یا کلاس زبان انگلیسی، ما مسیر یادگیری را برایتان ساده و
+                حرفه‌ای کرده‌ایم.
+            </p>
+
+        </div>
+
+        <div class="full-text border-end border-primary border-4">
+            <h2>دسته‌بندی‌های اصلی کلاس‌ها در کلاس‌یار</h2>
+
+            <h3>1. کلاس‌های ورزشی در نجف‌آباد</h3>
+            <ul>
+                <li>کلاس‌های بدن‌سازی و فیتنس</li>
+                <li>آموزش شنا، ژیمناستیک و ایروبیک</li>
+                <li>ورزش‌های رزمی مانند کاراته، تکواندو، جودو</li>
+                <li>فوتبال، والیبال، بسکتبال، اسکیت و دیگر رشته‌ها</li>
+            </ul>
+
+            <h3>2. کلاس‌های هنری در نجف‌آباد</h3>
+            <ul>
+                <li>کلاس موسیقی (آموزش سازهای مختلف مثل گیتار، پیانو، سنتور و ...)</li>
+                <li>نقاشی، طراحی، خوشنویسی و هنرهای تجسمی</li>
+                <li>بازیگری، تئاتر، مجسمه‌سازی، عکاسی و گرافیک</li>
+            </ul>
+
+            <h3>3. کلاس‌های علمی و آموزشی در نجف‌آباد</h3>
+            <ul>
+                <li>آموزش زبان‌های خارجی (انگلیسی، فرانسه، آلمانی، ترکی و ...)</li>
+                <li>کلاس‌های درسی برای مقاطع ابتدایی تا دبیرستان</li>
+                <li>فن بیان، تندخوانی، مهارت‌های تحصیلی و مشاوره درسی</li>
+                <li>آموزش مهارت‌های عمومی و رشد فردی</li>
+            </ul>
+
+            <h3>4. کلاس‌های فناوری و کامپیوتر در نجف‌آباد</h3>
+            <ul>
+                <li>آموزش برنامه‌نویسی (پایتون، جاوا، سی‌شارپ، اندروید و ...)</li>
+                <li>طراحی سایت، رباتیک، الکترونیک و هوش مصنوعی</li>
+                <li>آموزش نرم‌افزارهای کاربردی مثل فتوشاپ، کورل، آفیس، اتوکد</li>
+                <li>آموزش ICDL و مهارت‌های پایه کار با رایانه</li>
+            </ul>
+
+            <h2>جست‌وجوی دقیق و فیلترهای هوشمند در کلاس‌یار</h2>
+            <p>
+                یکی از مهم‌ترین ویژگی‌های کلاس‌یار، امکان <strong>فیلتر پیشرفته کلاس‌ها</strong> بر اساس فاکتورهای مختلف
+                است. این قابلیت به شما کمک می‌کند کلاس موردنظرتان را سریع‌تر و دقیق‌تر پیدا کنید.
+            </p>
+            <ul>
+                <li><strong>قیمت کلاس:</strong> انتخاب کلاس‌های رایگان یا با هزینه مناسب</li>
+                <li><strong>زمان برگزاری:</strong> کلاس‌های صبح، عصر، روزهای تعطیل یا پایان هفته</li>
+                <li><strong>نوع دوره و زیرمجموعه‌ها:</strong> انتخاب دقیق کلاس در شاخه موردنظر</li>
+            </ul>
+
+            <h2>چرا کلاس‌یار را انتخاب کنیم؟</h2>
+            <ul>
+                <li><strong>جامع‌ترین مرجع آموزشگاه‌های نجف‌آباد</strong></li>
+                <li>معرفی کامل هر آموزشگاه همراه با عکس، مشخصات، ساعات کاری و آدرس دقیق</li>
+                <li>امکان جست‌وجو بر اساس دسته‌بندی، قیمت، زمان و نوع کلاس</li>
+                <li>مشاهده نظرات کاربران و رتبه‌بندی آموزشگاه‌ها</li>
+                <li>دسترسی آسان به شماره تماس و ثبت‌نام سریع کلاس‌ها</li>
+            </ul>
+
+            <h2>کلاس‌یار؛ مسیر هوشمندانه برای یادگیری و پیشرفت</h2>
+            <p>
+                با کلاس‌یار، دیگر نیازی نیست ساعت‌ها به دنبال شماره آموزشگاه‌ها بگردید یا از آشنایان سوال بپرسید.
+                تنها با چند کلیک، به لیستی از بهترین <strong>کلاس‌های آموزشی در نجف‌آباد</strong> دسترسی دارید، آن‌ها را
+                مقایسه می‌کنید و با اطمینان انتخاب می‌کنید.
+            </p>
+            <p>
+                <strong>همین حالا جست‌وجوی کلاس آموزشی در نجف‌آباد را با کلاس‌یار شروع کنید و یک قدم به یادگیری
+                    دلخواهتان نزدیک‌تر شوید!</strong>
+            </p>
+        </div>
+
+        <button class="toggle-btn mb-5 bg-main" onclick="toggleText()">توضیحات بیشتر</button>
+    </div>
     <!-- seo section with word keys END-->
 
 
@@ -1027,7 +714,7 @@
                                                     <i class="flaticon-phone-call"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <a href="tel:0123456789">۰۹۲۳۲۸۹۴۵۰۸</a>
+                                                    <a href="tel:09232894508">۰۹۲۳۲۸۹۴۵۰۸</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -1055,6 +742,8 @@
                                         <li><a href="blog.html">وبلاگ</a></li>
                                         <li><a href="institute.html">اموزشگاه ها </a></li>
                                         <li><a href="institute.html">کلاس ها </a></li>
+                                        <li><a href="../privacy.html">حریم خصوصی</a></li>
+                                        <li><a href="../rules.html">قوانین</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1096,50 +785,33 @@
 
                 </div>
             </div>
-            <div class="footer-mid">
-                <div class="my-row">
-                    <div class="footer-about">
-                        <h4>کلاس یار؛ اولین مرجع کلاس ها و آموزشگاه های واقع در نجف آباد</h4>
-                        <p class="main-text not-active light-bar">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                            استفاده از
-                            طراحان گرافیک
-                            است.
-                            چاپگرها و متون بلکه روزنامه
-                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
-                            متنوع با هدف بهبود ابزارهای
-                            کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
-                            متخصصان را می طلبد تا با نرم
-                            افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
-                            زبان
-                            فارسی ایجاد کرد. در این صورت
-                            می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
-                            وزمان مورد نیاز شامل حروفچینی
-                            دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
-                            گیرد.
-                        </p>
-                        <p class="hidden-text"> این فروشگاه با تجربه و اعتماد مشتریان، بهترین گزینه برای خرید آنلاین
-                            در ایران
-                            محسوب می‌شود. دبچی کالا با ارائه گارانتی معتبر و بازگشت کالا تا ۷ روز، اطمینان خاطر را
-                            برای مشتریان خود فراهم کرده
-                            است. تنوع محصولات از الکترونیک تا لوازم خانگی و زیبایی، دبچی کالا را به یک فروشگاه جامع
-                            تبدیل کرده است.</p>
-                    </div>
-                    <div style="text-align: right;">
-                        <button id="showMoreBtn" class="showMoreBtn">مشاهده بیشتر</button>
-                    </div>
-                </div>
-            </div>
+
         </div>
 
         <div class="footer-bottom-two">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
+
+                        <!-- ساماندهای مشکل داره  -->
+
                         <div class="copyright-text-two text-center my-row">
                             <p>تمامی حقوق محفوظ است | کلاس یار</p>
-                            <div>
-                                <div class="e-namad">
-                                    <a href=""><img src="assets/img/icons/e-namad.jpg" alt="" class="image-fluid"></a>
+                            <div class="nemads">
+                                <div class="nemad-item">
+                                    <a referrerpolicy='origin' target='_blank'
+                                        href='https://trustseal.enamad.ir/?id=603082&Code=eRO9hOUkcoAv9hc8Bz6q7ep4NqrNtRgD'><img
+                                            referrerpolicy='origin'
+                                            src='https://trustseal.enamad.ir/logo.aspx?id=603082&Code=eRO9hOUkcoAv9hc8Bz6q7ep4NqrNtRgD'
+                                            alt='' style='cursor:pointer' code='eRO9hOUkcoAv9hc8Bz6q7ep4NqrNtRgD'></a>
+                                </div>
+
+                                <div class="nemad-item">
+
+                                    <img referrerpolicy='origin' id='rgvjjzpesizpesgtesgtjzpe' style='cursor:pointer'
+                                        onclick="window.open('https:/logo.samandehi.ir/Verify.aspx?id=379007&p=xlaojyoepfvlobpdobpdjyoe', Popup,toolbar=no, scrollbars=no, location=no, statusbar=no, menubar=no, resizable=0, width=450, height=630, top=30)"
+                                        alt='logo-samandehi'
+                                        src='https://logo.samandehi.ir/logo.aspx?id=379007&p=qftiyndtbsiylymalymayndt' />
                                 </div>
                             </div>
                         </div>
@@ -1151,6 +823,7 @@
 
     </footer>
 
+    <script src="assets/js/index.js"></script>
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
