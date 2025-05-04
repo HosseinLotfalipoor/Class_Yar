@@ -239,7 +239,7 @@
                         <div class="box">
 
                             <ul>
-                                <span class="fs-6 text-light">به اموزشگاه رای بده</span>
+                                <span class="fs-6 text-light">به اموزشگاه امتیاز دهید</span>
 
                                 <li>
                                     <div class="star-wiget">
@@ -285,7 +285,7 @@
                     <h2 class="margin-20px">کلاس های آموزشگاه</h2>
                     <div class="col-12 mb-3">
                         <div class="widget-search">
-                            <input type="text" name="5" placeholder="نام کلاس های که میخواهی رو بگو">
+                            <input type="text" name="5" placeholder="کلاس مورد نظر خود را جستجو کنید">
                             <button class="btn-search-widget">
                                 <img src="assets/img/icons/search.png" alt="">
                             </button>
@@ -305,7 +305,7 @@
 
                                 <div class="academy-content">
                                     <div class="info-item">
-                                        <i class="fas fa-map-marker-alt info-icon"></i>
+                                        <i class="fas fa-school info-icon"></i>
                                         <p class="info-text">نام کلاس : ویلن شیدا</p>
                                     </div>
 
@@ -313,7 +313,7 @@
 
                                     <div class="info-item">
                                         <i class="fas fa-info-circle info-icon"></i>
-                                        <p class="info-text">ساعت برگزاری : 13 الی 22</p>
+                                        <p class="info-text">زمان برگزاری : 13 الی 22</p>
                                     </div>
                                     <div class="info-item">
                                         <i class="fa fa-chalkboard-teacher info-icon"></i>
@@ -340,19 +340,18 @@
 
                 <div class="my-col-xs-12 my-col-lg-3 mx-5 my-4">
 
-                    <div class="filter-box">
+                    <div class="filter-box" id="filter-box2">
                         <form action="#">
                             <div class="col-12">
                                 <div class="section-title">
-                                    <h2>فیلتر محصولات</h2>
+                                    <h2>فیلتر کلاس ها</h2>
                                 </div>
                             </div>
-
-
+    
                             <div class="col-12 filter-product">
                                 <div class="accordion" id="accordionExample">
                                     <div class="card">
-
+    
                                         <div class="card-header" id="headingOne">
                                             <h2>
                                                 <button class="btn btn-block text-right collapsed" type="button"
@@ -360,168 +359,142 @@
                                                     aria-expanded="false" aria-controls="collapseOne">
                                                     دسته بندی
                                                     <i class="fas fa-arrow-down"></i>
-
+    
                                                 </button>
                                             </h2>
                                         </div>
-
-
+    
+    
                                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                             data-bs-parent="#accordionExample">
                                             <div class="card-body">
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck1">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
                                                     <label for="customCheck1" class="custom-control-label">همه</label>
                                                 </div>
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck2">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
                                                     <label for="customCheck2" class="custom-control-label">هنری</label>
                                                 </div>
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck2">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
                                                     <label for="customCheck2" class="custom-control-label">ورزشی</label>
                                                 </div>
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck2">
-                                                    <label for="customCheck2"
-                                                        class="custom-control-label">فناوری</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label for="customCheck2" class="custom-control-label">فناوری</label>
                                                 </div>
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck2">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
                                                     <label for="customCheck2" class="custom-control-label">علمی</label>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-
+    
+    
                                     <div class="card">
-
+    
                                         <div class="card-header" id="headingTwo">
                                             <h2>
                                                 <button class="btn btn-block text-right collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                     aria-expanded="false" aria-controls="collapseTwo">
-                                                    برند
+                                                    زمان برگزاری
                                                     <i class="fas fa-arrow-down"></i>
-
+    
                                                 </button>
                                             </h2>
                                         </div>
-
-
+    
+    
                                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                             data-bs-parent="#accordionExample">
                                             <div class="card-body">
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck3">
-                                                    <label for="customCheck3" class="custom-control-label">همه</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label for="customCheck3" class="custom-control-label">همه وقت</label>
                                                 </div>
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck4">
-                                                    <label for="customCheck4" class="custom-control-label">لباس
-                                                        مردانه</label>
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label for="customCheck4" class="custom-control-label">صبح</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label for="customCheck4" class="custom-control-label">ظهر </label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label for="customCheck4" class="custom-control-label">بعد از
+                                                        ظهر</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label for="customCheck4" class="custom-control-label">عصر</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label for="customCheck4" class="custom-control-label">شب</label>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-
-                                    <div class="card">
-
-                                        <div class="card-header" id="headingThree">
-                                            <h2>
-                                                <button class="btn btn-block text-right collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
-                                                    فروشنده
-                                                    <i class="fas fa-arrow-down"></i>
-
-                                                </button>
-                                            </h2>
-                                        </div>
-
-
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck5">
-                                                    <label for="customCheck5" class="custom-control-label">همه</label>
-                                                </div>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck6">
-                                                    <label for="customCheck6" class="custom-control-label">لباس
-                                                        مردانه</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card">
-
-                                        <div class="card-header" id="headingFour">
-                                            <h2>
-                                                <button class="btn btn-block text-right collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                    aria-expanded="false" aria-controls="collapseFour">
-                                                    رنگ ها
-                                                    <i class="fas fa-arrow-down"></i>
-
-                                                </button>
-                                            </h2>
-                                        </div>
-
-
-                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <div class="custom-control custom-checkbox">
-                                                    <label for="customCheck7" class="custom-control-label">مشکی</label>
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck7">
-                                                    <span class="filter-color" style="background: #000;"></span>
-                                                </div>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck8">
-                                                    <label for="customCheck8" class="custom-control-label">ابی
-                                                    </label>
-                                                    <span class="filter-color" style="background: blue;"></span>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+    
                                 </div>
                             </div>
-
-
-                            <div class="col-12 md-3">
+    
+    
+                            <div class="col-12 mb-3">
                                 <div class="section-title">
                                     <h2>فیلتر بر اساس قیمت</h2>
                                 </div>
-
+                            
                                 <div class="my-2">
-                                    <div id="slider"></div>
+                                    <!-- اسلایدر بازه‌ای -->
+                                    <input type="range" class="form-range" id="minPrice" name="minPrice" min="0" max="10000000" step="100000" value="1000000">
+                                    <input type="range" class="form-range" id="maxPrice" name="maxPrice" min="0" max="10000000" step="100000" value="5000000">
                                 </div>
-
+                            
                                 <div class="text-center pt-2 my-2">
-                                    <span>قیمت:</span>
-                                    <span id="slider-value"></span>قیمت
+                                    <span>از:</span>
+                                    <span id="minPriceValue">1,000,000</span> تومان
+                                    <br>
+                                    <span>تا:</span>
+                                    <span id="maxPriceValue">5,000,000</span> تومان
                                 </div>
                             </div>
-
-
+                            
+                            <script>
+                                // گرفتن المان‌های اسلایدر و قیمت
+                                const minPrice = document.getElementById("minPrice");
+                                const maxPrice = document.getElementById("maxPrice");
+                                const minPriceValue = document.getElementById("minPriceValue");
+                                const maxPriceValue = document.getElementById("maxPriceValue");
+                            
+                                // مقدار اولیه قیمت‌ها به روز می‌شود
+                                minPriceValue.textContent = Number(minPrice.value).toLocaleString();
+                                maxPriceValue.textContent = Number(maxPrice.value).toLocaleString();
+                            
+                                // به‌روزرسانی قیمت‌ها هنگام تغییر اسلایدر
+                                minPrice.addEventListener("input", function () {
+                                    // جلوگیری از این که minPrice بیشتر از maxPrice شود
+                                    if (Number(minPrice.value) > Number(maxPrice.value)) {
+                                        minPrice.value = maxPrice.value;
+                                    }
+                                    minPriceValue.textContent = Number(minPrice.value).toLocaleString();
+                                });
+                            
+                                maxPrice.addEventListener("input", function () {
+                                    // جلوگیری از این که maxPrice کمتر از minPrice شود
+                                    if (Number(maxPrice.value) < Number(minPrice.value)) {
+                                        maxPrice.value = minPrice.value;
+                                    }
+                                    maxPriceValue.textContent = Number(maxPrice.value).toLocaleString();
+                                });
+                            </script>
+                            
+    
+    
                             <div class="col-12">
                                 <button class="btn btn-info btn-block" type="submit">فیلتر</button>
                             </div>
