@@ -11868,7 +11868,6 @@ body {
 /* ----------------------------------cards start------------------------ */
 .academy-card {
   margin-top:20px ;
-  width: 380px;
   background-color: white;
   border-radius: 15px;
   overflow: hidden;

@@ -151,8 +151,6 @@ main {
 .acctive {
   background: rgb(4, 0, 255) !important;
   color: rgb(255, 255, 255);
-  padding: 8px;
-  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -162,6 +160,9 @@ main {
 
 .block {
   display: block;
+}
+main.container{
+  height: auto;
 }
 
 /* classes  section*/
@@ -322,6 +323,13 @@ main {
 main {
   margin-top: 9rem;
   height: 100%;
+} 
+.class-container a{
+  flex-basis:45% !important;
+
+}
+.institute-container a:only-child {
+  flex-basis:45% !important;
 }
 
 /* --------------------------filter-start--------------------- */
@@ -422,6 +430,7 @@ main {
 }
 .filter-product .card .card-header button {
   font-size: 14px;
+  box-shadow: none;
 }
 .filter-product .card .card-header button i {
   position: absolute;

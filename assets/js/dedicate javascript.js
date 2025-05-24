@@ -1,18 +1,16 @@
 //the swiper has been imported in swiper-bundle.min.js file
 //swiper index
 var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    slidesPerView: 1.25,
+    spaceBetween: 50,
+    slidesPerView:1.25,
     freeMode: true,
     breakpoints: {
         // when window width is <= 999px
         576: {
             slidesPerView: 2.25,
-            // spaceBetweenSlides: 30,
+            spaceBetweenSlides: 30,
         },
-        768: {
-            slidesPerView: 3.25,
-        },
+        
         992: {
             slidesPerView:4.25,
         }

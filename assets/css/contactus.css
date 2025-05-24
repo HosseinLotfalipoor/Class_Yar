@@ -15,7 +15,8 @@ ul.navigation {
 }
 .near-connection-detail {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   padding: 5px;
   background-color: white;
@@ -92,24 +93,25 @@ ul.navigation {
 
 .support-form label {
   position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
+  right: 0px;
+  padding: 10px;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.7);
   transition: all 0.3s ease;
   pointer-events: none;
+  border-radius: 20px;
+}
+.form-group input:valid ~ label,
+.form-group input:focus ~ label,
+.form-group textarea:focus~label,
+.form-group textarea:valid~label {
+  transform: translate(-10px, -8px);
+  font-size: 0.85rem;
+  padding: 0 10px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
 }
 
-.support-form input:focus + label,
-.support-form textarea:focus + label,
-.support-form input:not(:placeholder-shown) + label,
-.support-form textarea:not(:placeholder-shown) + label {
-  top: 0;
-  right: 10px;
-  font-size: 0.8rem;
-  color: #fff;
-}
 
 .support-form textarea {
   resize: vertical;
@@ -141,7 +143,6 @@ button svg {
   width: 20px;
   height: 20px;
 }
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .support-form .form-row {
