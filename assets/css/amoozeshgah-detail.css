@@ -456,7 +456,15 @@ input#rate-5:checked ~ label {
   margin-bottom: 30px;
 }
 /* -----------------------------header end----------------------------- */
-
+/* --------------------------respo-card-start--------------------- */
+.class-card-container {
+  width: 100%;
+  justify-content: space-between;
+}
+.class-card-container a {
+  flex-basis: 45%;
+}
+/* --------------------------respo-card-end--------------------- */
 /* --------------------------filter-start--------------------- */
 .main-content {
   width: 100%;
@@ -698,3 +706,11 @@ input#rate-5:checked ~ label {
 /*---------------------------Btn End-------------------------*/
 
 /* -----------------------------filter-end----------------------- */
+@media screen and (max-width: 767.98px) {
+  .class-card-container {
+    justify-content: center;
+  }
+  .class-card-container a {
+    flex-basis: 80%;
+  }
+}
