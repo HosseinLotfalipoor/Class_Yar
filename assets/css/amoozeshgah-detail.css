@@ -542,6 +542,11 @@ input#rate-5:checked ~ label {
 }
 
 /*---------------------------filter Product Start-------------------------*/
+.filter-order{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .filter-product {
   margin-bottom: 1rem;
 }
@@ -712,5 +717,16 @@ input#rate-5:checked ~ label {
   }
   .class-card-container a {
     flex-basis: 80%;
+  }
+  .filter-order{
+    order: -1;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .filter-order{
+    order: -1;
+  }
+  .amoozeshgah-detail-main .my-row{
+    justify-content: center !important;
   }
 }

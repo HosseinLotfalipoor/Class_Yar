@@ -629,7 +629,6 @@ label {
   color: var(--tg-primary-color);
 }
 .header-action .header-btn .btn {
-  color: var(--tg-white);
   font-size: 15px;
   padding: 16px 33px;
   border: 2px solid transparent;
@@ -12024,3 +12023,25 @@ body {
   border-radius: 15px;
 }
 /* ---------------------title comment end-------------------------- */
+/* ---------------------rule and privacy start--------------------- */
+.title-section {
+  margin-top: 13rem;
+  background-color: rgb(217, 217, 226);
+  border-radius: 20px 0px 20px 0px;
+  padding: 30px;
+  width: 800px;
+  height: 120px;
+  position: relative;
+
+}
+
+.cricle {
+  border-radius: 50%;
+  background-color: rgb(0, 68, 255);
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  position: absolute;
+  top: -60px;
+}
+/* ---------------------rule and privacy end--------------------- */
