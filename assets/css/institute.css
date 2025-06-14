@@ -342,6 +342,7 @@ main {
   background-color: #f0e9e9a8;
   transition: all 0.1s;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .section-title {
@@ -410,6 +411,7 @@ main {
 .fliter-order{
   display: flex;
   justify-content: center;
+  align-items: start;
 }
 .filter-product {
   margin-bottom: 1rem;
