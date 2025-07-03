@@ -11873,7 +11873,10 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-
+.class-container> a , .institute-container> a{
+  max-width: 45%;
+  display: inline-block;
+}
 .academy-card:hover {
   transform: translateY(-10px);
 }
