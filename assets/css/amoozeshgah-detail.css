@@ -1,10 +1,10 @@
-body {
-  font-family: "Vazir", Arial, sans-serif;
-  /* فونت فارسی */
-  direction: rtl;
-  /* متن از راست به چپ */
-  color: #333;
+/* -------------------publick style for .amoozeshgah-detail start------------ */
+.none {
+  display: none;
 }
+
+/* -------------------publick style for .amoozeshgah-detail end------------ */
+
 /* -----------------top-info-amizzeshgah start--------------  */
 
 /* .specs-container {
@@ -200,6 +200,61 @@ body {
   }
 }
 /* -----------------top-info-amizzeshgah end--------------  */
+
+
+/* --------------------amoozeshgah-info call section :start------------ */
+.modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(20, 19, 19, 0.541);
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  /* width: 80%; */
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modalsdasdasd{
+  margin: 10px auto;
+}
+
+#call-with-amozeshgah {
+  cursor: pointer;
+}
+
+.call-card-modal-section {
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: auto;
+}
+
+.header-call-card-modal-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call-card-modal-section {
+}
+
+.remove-icon {
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+/* --------------------amoozeshgah-info call section :end------------ */
+
+
 .amoozeshgah-info-container {
   max-width: 1800px;
   margin: 50px auto;
@@ -542,7 +597,7 @@ input#rate-5:checked ~ label {
 }
 
 /*---------------------------filter Product Start-------------------------*/
-.filter-order{
+.filter-order {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -718,15 +773,15 @@ input#rate-5:checked ~ label {
   .class-card-container a {
     flex-basis: 80%;
   }
-  .filter-order{
+  .filter-order {
     order: -1;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
-  .filter-order{
+  .filter-order {
     order: -1;
   }
-  .amoozeshgah-detail-main .my-row{
+  .amoozeshgah-detail-main .my-row {
     justify-content: center !important;
   }
 }
