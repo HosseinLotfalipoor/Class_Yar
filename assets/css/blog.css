@@ -53,6 +53,7 @@ body {
 }
 
 .read-more {
+  display: inline-block;
   max-width: 40%;
   padding: 6px 12px;
   margin: auto 20px 10px;
@@ -63,7 +64,7 @@ body {
   font-size: 13px;
   transition: background-color 0.3s;
   text-align: center;
-
+  height: fit-content !important;
 }
 
 .read-more:hover {

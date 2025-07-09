@@ -11866,7 +11866,6 @@ body {
 
 /* ----------------------------------cards start------------------------ */
 .academy-card {
-  margin-top:20px ;
   background-color: white;
   border-radius: 15px;
   overflow: hidden;
@@ -22877,6 +22876,29 @@ label {
   width: 100%;
   object-fit: cover;
 }
+/* respo swiper-slide start */
+.swiper-slide{
+  height: unset;
+}
+.swiper-slide a ,.swiper-slide .academy-card{
+  height: 100%;
+}
+.academy-header{
+  height: 40%;
+}
+.academy-content{
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-around;
+}
+.visit-btn{
+  margin: auto  0!important;
+  display: flex;
+  justify-self: end;
+}
+
+/* respo swiper-slide end */
 .swiper-slide-active .project-thumb-seven img {
   filter: grayscale(0);
 }
@@ -23913,7 +23935,6 @@ body {
 
 /* ----------------------------------cards start------------------------ */
 .academy-card {
-  margin-top:20px ;
   background-color: white;
   border-radius: 15px;
   overflow: hidden;
@@ -23923,6 +23944,7 @@ body {
 .class-container> a , .institute-container> a{
   max-width: 45%;
   display: inline-block;
+  margin: 10px 0;
 }
 .academy-card:hover {
   transform: translateY(-10px);
